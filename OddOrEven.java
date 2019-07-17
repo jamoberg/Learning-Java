@@ -8,7 +8,7 @@ public class OddOrEven
         System.out.print("Enter an integer: ");
         Scanner sc = new Scanner(System.in);
 
-        // Make sure with catch the case where the user doesn't enter a integer
+        // Make sure we catch the case where the user doesn't enter a integer
         try
         {
           number = sc.nextInt();
